@@ -3,7 +3,6 @@ listView('python') {
     filterBuildQueue()
     filterExecutors()
     jobs {
-        name(/.*python.*/)
-        regex(/project-A-.+/)
+        regex(/.*python.*/)
     }
 }
