@@ -2,6 +2,10 @@ project_name = "jenkins-pipeline-python-test"
 repo = "https://github.com/amejiadelosrios/test-jenkins-1.git"
 repo_name = "repo"
 
+folder('project-a') {
+    displayName('Project A')
+    description('Folder for project A')
+}
 
 pipelineJob(project_name) {
     definition {
