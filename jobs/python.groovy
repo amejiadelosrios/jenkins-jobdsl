@@ -1,5 +1,5 @@
 project_name = "jenkins-pipeline-python"
-repo = "https://github.com/amejiadelosrios/jobdsl.git"
+repo = "https://github.com/amejiadelosrios/test-jenkins-1.git"
 repo_name = "repo"
 
 
