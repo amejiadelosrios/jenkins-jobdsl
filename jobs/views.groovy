@@ -1,7 +1,7 @@
 listView('python') {
     description('Python pipelines')
     jobs {
-        regex(/*python*/)
+        regex(\.python\.)
     }
     columns {
         status()
